@@ -1,0 +1,14 @@
+body{
+    background-color: #b2bec3;
+    
+}
+
+h1{
+    font-family: monospace;
+    text-align: center;
+    margin-top: 200px;
+}
+
+.row{
+    margin-top: 30px;
+}

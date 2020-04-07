@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skethy Currency Converter</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+    <div class="container">
+        <div class="row">
+            <div class="col">
+            <h1> Sketchy Currency Converter</h1>
+        </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <form>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Amount</label>
+                        <input type="text" class="form-control" id="input" placeholder="Amount">
+                    </div>
+                
+                    <div class="form-group">
+                      <label>To :</label>
+                      <select class="form-control" id="currency">
+                        <option>DH</option>
+                        <option>USD</option>
+                        <option>EUR</option>
+                      </select>
+                    </div>
+                    <button type="button" class="btn btn-dark" onclick="convert()">Convert</button>
+                </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">DH</label>
+                        <input type="text" class="form-control" id="dh" placeholder="DH">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">USD</label>
+                        <input type="text" class="form-control" id="usd" placeholder="USD">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">EUR</label>
+                        <input type="text" class="form-control" id="eur" placeholder="EUR">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
